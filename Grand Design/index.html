@@ -1,0 +1,685 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Febryo Fibonacci Amadeo - Dharma Cita | Calon Senator SEMA-FST 2025</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="image.png" type="image/x-icon">
+</head>
+<body class="bg-white text-gray-800 font-poppins">
+    <!-- Navigation -->
+    <nav class="fixed w-full bg-primary text-white z-50 shadow-md">
+        <div class="container mx-auto px-4 py-3 flex justify-between items-center">
+            <div class="flex items-center space-x-2">
+                <img src="/image.png" width="50px" height="50px">
+                <span class="font-bold text-xl">Grand Design SEMA-FST</span>
+            </div>
+            <div class="hidden md:flex space-x-6">
+                <a href="#profilsingkat" class="hover:text-blue-200 transition">Profil Singkat</a>
+                <a href="#pendahuluan" class="hover:text-blue-200 transition">Pendahuluan</a>
+                <a href="#analisis" class="hover:text-blue-200 transition">Analisis</a>
+                <a href="#swot" class="hover:text-blue-200 transition">SWOT</a>
+                <a href="#visi-misi" class="hover:text-blue-200 transition">Visi & Misi</a>
+                <a href="#program" class="hover:text-blue-200 transition">Program</a>
+            </div>
+            <button class="md:hidden text-white focus:outline-none" id="mobile-menu-button">
+                <i class="fas fa-bars text-xl"></i>
+            </button>
+        </div>
+        <!-- Mobile Menu -->
+        <div class="md:hidden hidden bg-primary px-4 pb-4" id="mobile-menu">
+            <a href="#pendahuluan" class="block py-2 hover:text-blue-200 transition">Profil Singkat</a>
+            <a href="#profilsingkat" class="block py-2 hover:text-blue-200 transition">Pendahuluan</a>
+            <a href="#analisis" class="block py-2 hover:text-blue-200 transition">Analisis</a>
+            <a href="#swot" class="block py-2 hover:text-blue-200 transition">SWOT</a>
+            <a href="#visi-misi" class="block py-2 hover:text-blue-200 transition">Visi & Misi</a>
+            <a href="#program" class="block py-2 hover:text-blue-200 transition">Program</a>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="min-h-screen bg-primary text-white relative overflow-hidden">
+        <div class="container mx-auto px-4 py-24 flex flex-col lg:flex-row items-center gap-12 bg-fst-uin">
+            <div class="lg:w-1/2">
+                <h1 class="text-4xl md:text-6xl font-bold mb-6 leading-tight">GRAND DESIGN <br/> SEMA-FST</h1>
+                <p class="text-xl mb-8 opacity-90">Disusun sebagai persyaratan pencalonan pengurus Senat Mahasiswa (SEMA) Fakultas Sains dan Teknologi Tahun 2025.</p>
+                <div class="flex flex-wrap gap-4">
+                    <a href="#profilsingkat" class="px-8 py-4 bg-white text-primary rounded-full font-bold hover:bg-blue-100 transition duration-300">
+                        Get started <span class="ml-2">→</span>
+                    </a>
+                </div>
+            </div>
+            <div class="lg:w-1/2 grid grid-cols-3 gap-4">
+                <div class="col-span-2">
+                    <img src="deo_himatif.jpg" 
+                         alt="" class="w-full h-auto rounded-lg shadow-xl">
+                </div>
+                <div class="grid gap-4">
+                    <img src="deo_pkm.jpg" 
+                         alt="" class="w-full h-auto rounded-lg shadow-xl">
+                    <img src="deo_podium.jpg" 
+                         alt="" class="w-full h-auto rounded-lg shadow-xl">
+                </div>
+                <div class="col-span-3 grid grid-cols-2 gap-4">
+                    <img src="image.png" 
+                         alt="" class="w-full h-auto rounded-lg shadow-xl">
+                    <img src="deo_single.jpg" 
+                         alt="" class="w-full h-auto rounded-lg shadow-xl">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Biografi -->
+    <section class="py-16 bg-secondary" id="profilsingkat">
+        <div class="container mx-auto px-4">
+            <div class="max-w-4xl mx-auto bg-white rounded-xl shadow-lg overflow-hidden">
+                <div class="md:flex">
+                    <div class="md:w-1/3 bg-primary p-6 flex items-center justify-center">
+                        <img src="pas foto 3x4.jpg" alt="Foto Profil" class="w-full h-auto rounded-lg shadow-md">
+                    </div>
+                    <div class="md:w-2/3 p-8">
+                        <h2 class="text-3xl font-bold text-primary mb-4">Febryo Fibonacci Amadeo</h2>
+                        <p class="text-lg text-gray-600 mb-6">Calon Pengurus SEMA-FST Tahun 2025</p>
+                        
+                        <div class="mb-6">
+                            <h3 class="text-xl font-bold text-primary mb-2">Profil Singkat</h3>
+                            <p class="text-gray-700">
+                                Mahasiswa Fakultas Sains dan Teknologi dengan passion di bidang legislasi dan pengembangan kebijakan. Aktif dalam berbagai organisasi kemahasiswaan dengan pengalaman membangun sistem yang lebih baik untuk mahasiswa.
+                            </p>
+                        </div>
+                        
+                        <div class="grid md:grid-cols-2 gap-6">
+                            <div>
+                                <h3 class="text-xl font-bold text-primary mb-2">Pendidikan</h3>
+                                <ul class="space-y-2">
+                                    <li class="flex items-start">
+                                        <i class="fas fa-graduation-cap text-primary mt-1 mr-2"></i>
+                                        <span>Teknik Informatika - UIN Sunan Gunung Djati Bandung</span>
+                                    </li>
+                                </ul>
+                            </div>
+                            
+                            <div>
+                                <h3 class="text-xl font-bold text-primary mb-2">Pengalaman Organisasi</h3>
+                                <ul class="space-y-2">
+                                    <li class="flex items-start">
+                                        <i class="fas fa-users text-primary mt-1 mr-2"></i>
+                                        <span>HMI Komisariat Saintek</span>
+                                    </li>
+                                    <li class="flex items-start">
+                                        <i class="fas fa-users text-primary mt-1 mr-2"></i>
+                                        <span>DEMA-FST</span>
+                                    </li>
+                                    <li class="flex items-start">
+                                        <i class="fas fa-users text-primary mt-1 mr-2"></i>
+                                        <span>HIMATIF</span>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Pendahuluan -->
+    <section id="pendahuluan" class="py-16 bg-white">
+        <div class="container mx-auto px-4">
+            <h2 class="text-3xl md:text-4xl font-bold text-primary mb-8 text-center">Pendahuluan</h2>
+            <div class="max-w-4xl mx-auto text-justify">
+                <p class="mb-4 text-lg">
+                    Senat Mahasiswa Fakultas Sains dan Teknologi (SEMA-FST) merupakan lembaga legislatif mahasiswa di tingkat fakultas yang memiliki peran vital dalam menjaga demokrasi kampus, mengawal aspirasi mahasiswa, serta menjadi katalisator kebijakan yang kritis, konstruktif, dan solutif. Sesuai SK Dirjen Pendis Kementerian Agama Republik Indonesia No. 3814 Tahun 2024, SEMA adalah “lembaga legislatif mahasiswa di tingkat fakultas yang bertugas menyusun, mengesahkan, dan mengawasi kebijakan kemahasiswaan serta menjadi mitra strategis Dekanat dalam mewujudkan tata kelola kemahasiswaan berbasis nilai-nilai Islam, akademik, dan kebangsaan.”
+                    <br/><br/>
+                    Dalam konteks tersebut, SEMA-FST bukan sekadar entitas struktural yang menjalankan fungsi formalistik, melainkan pusat gerakan intelektual, spiritual, dan sosial yang melekat pada denyut kehidupan mahasiswa Fakultas Sains dan Teknologi. Peran ini menuntut orientasi nilai yang tidak hanya administratif tetapi juga filosofis dan moral, sebagaimana ditunjukkan dalam sistem pendidikan tinggi Islam yang mengintegrasikan wahyu dan akal (‘aql wa naql).
+                    <br/><br/>
+                    Sebagai bagian dari Universitas Islam Negeri Sunan Gunung Djati Bandung. Institusi yang memiliki program WMI (Wahyu Memandu Ilmu) menjunjung tinggi integrasi ilmu dan agama. Fakultas Sains dan Teknologi memikul tanggung jawab moral untuk memastikan nilai-nilai keislaman tertanam dalam seluruh dimensi aktivitas kemahasiswaan. Nilai-nilai ini tidak boleh berhenti pada seremoni atau simbolis saja, melainkan harus menjadi ruh yang menjiwai keputusan strategis, sikap advokatif, dan pelayanan terhadap mahasiswa.
+                    <br/><br/>
+                    Dalam Islam, prinsip-prinsip moral yang harus dijalankan oleh seorang pemimpin dan lembaga di antaranya adalah shidq (kejujuran), amanah (tanggung jawab), ‘adl (keadilan), dan syura (musyawarah). Al-Qur’an menegaskan pentingnya prinsip keadilan dan amanah dalam kepemimpinan:
+                    “Sesungguhnya Allah menyuruh kamu menyampaikan amanat kepada yang berhak menerimanya, dan (menyuruh kamu) apabila menetapkan hukum di antara manusia supaya kamu menetapkannya dengan adil.”
+                    (Q.S. An-Nisa: 58)
+                    <br/><br/>
+                    Musyawarah menjadi instrumen penting dalam proses demokrasi internal, sebagaimana Allah berfirman
+                    “Dan (bagi) orang-orang yang menerima seruan Tuhannya dan mendirikan salat, sedang urusan mereka (diputuskan) dengan musyawarah di antara mereka…”
+                    (Q.S. Asy-Syura: 38)
+                    <br/><br/>
+                    Para cendikiawan muslim telah memberikan fondasi normatif yang kuat bagi kita selaku mahasiswa muslim dalam konteks pengembangan SEMA-FST. Al-Farabi, dalam Araa’ Ahl al-Madinah al-Fadhilah, menyatakan bahwa “Tujuan tertinggi manusia adalah kebahagiaan sejati, dan pemimpin ideal adalah yang membimbing masyarakat kepada tujuan tersebut dengan hikmah dan keadilan.” Ibnu Khaldun dalam karyanya berjudul “Muqaddimah” menekankan bahwa “Kepemimpinan sejati adalah kekuatan akhlak dan ilmu yang mempersatukan manusia dalam keadilan.”
+                    <br/><br/>
+                    Senada dengan itu, Prof. Kuntowijoyo dalam gagasannya tentang “Ilmu Sosial Profetik” menekankan perlunya integrasi antara nilai transendensi, humanisasi, dan liberasi dalam membangun struktur sosial berbasis nilai Islam. Menurutnya, mahasiswa harus menjadi agen perubahan profetik yang tidak hanya memikirkan dunia akademik semata, melainkan juga keadilan sosial dan transformasi budaya (Kuntowijoyo, Paradigma Islam: Interpretasi untuk Aksi, 1991).
+                    <br/><br/>
+                    Bertolak dari semua dasar tersebut, saya, Febryo Fibonacci Amadeo mahasiswa jurusan Teknik Informatika, mencalonkan diri sebagai Senator Mahasiswa Fakultas Sains dan Teknologi dengan membawa visi besar untuk membentuk arah kelembagaan yang integratif antara keilmuan, keislaman, dan kemanusiaan. Grand design ini tidak hanya berperan sebagai pedoman administratif, melainkan merupakan manifestasi dari cita-cita mahasiswa Islam yang progresif, transformatif, dan berkeadaban.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Analisis Kondisi -->
+    <section id="analisis" class="py-16 bg-secondary">
+        <div class="container mx-auto px-4">
+            <h2 class="text-3xl md:text-4xl font-bold text-primary mb-12 text-center">Analisis Kondisi</h2>
+            
+            <div class="max-w-4xl mx-auto">
+                <!-- Internal -->
+                <div class="mb-8">
+                    <button class="accordion-button w-full flex justify-between items-center bg-primary text-white px-6 py-4 rounded-lg shadow-md hover:bg-blue-800 transition">
+                        <span class="text-xl font-medium">Kondisi Internal</span>
+                        <i class="fas fa-chevron-down transition-transform duration-300"></i>
+                    </button>
+                    <div class="accordion-content bg-white px-6 rounded-b-lg shadow-md">
+                        <div class="py-4 text-justify">
+                            <h3 class="font-bold text-lg mb-2 text-primary">Mahasiswa FST</h3>
+                            <p class="mb-4">
+                                Mahasiswa bukan sekadar peserta didik di perguruan tinggi, tetapi juga memegang peran strategis sebagai penggerak perubahan sosial, calon pemimpin bangsa, penjaga nilai-nilai etika, serta representasi suara moral masyarakat. Namun, dalam realitasnya, mahasiswa kini menghadapi tantangan yang tidak sederhana, baik dari dalam dirinya sendiri maupun dari lingkungan yang terus berubah. Tantangan internal meliputi sikap individualistik, minimnya semangat kolaboratif, serta kecenderungan emosional dalam merespons isu tanpa disertai analisis mendalam. Sementara dari sisi eksternal, arus digitalisasi yang cepat melahirkan pola pikir instan dan konsumtif, menjauhkan mahasiswa dari semangat perjuangan kolektif dan komitmen jangka panjang, terutama dalam kegiatan organisasi.
+                            </p>
+                            <p class="mb-4">
+                                Kondisi ini berdampak langsung pada melemahnya partisipasi mahasiswa dalam ruang-ruang organisasi. Lemahnya kepedulian sosial, semangat kebersamaan, serta absennya orientasi gerakan yang terstruktur menjadikan organisasi mahasiswa tampak stagnan, tidak responsif, bahkan dianggap kurang relevan dalam menjawab tuntutan zaman yang serba digital dan efisien. Oleh karena itu, organisasi seperti SEMA FST perlu melakukan pembenahan menyeluruh mulai dari refleksi peran, penguatan struktur internal, hingga formulasi strategi baru yang adaptif dan solutif.
+                            </p>
+                            
+                            <h3 class="font-bold text-lg mb-2 text-primary">Staffsus SEMA-FST</h3>
+                            <p class="mb-4">
+                                Staf Khusus SEMA FST merupakan perangkat pendukung di tingkat fakultas yang dibentuk untuk membantu pelaksanaan fungsi utama SEMA-FST, khususnya dalam menyalurkan aspirasi mahasiswa dan memperkuat kinerja kelembagaan legislatif. Staf ini terdiri dari perwakilan tiap jurusan, masing-masing berjumlah tiga orang, dan berperan memberikan masukan serta pertimbangan kepada SEMA-FST.
+                            </p>
+                            <p class="mb-4">
+                                Namun, efektivitas Staff Khusus masih belum optimal. Minimnya pemberdayaan pascapelatihan dan ketiadaan panduan operasional menyebabkan staf ini belum dapat berperan maksimal. Kurangnya kesinambungan pasca pendidikan serta tidak adanya kurikulum yang sistematis juga turut menyebabkan lemahnya sinergi antara Staf Khusus dan SEMA itu sendiri.
+                            </p>
+                            <p class="mb-4">
+                                Untuk menjawab tantangan ini, diperlukan sistem pembinaan yang lebih terstruktur, evaluasi rutin, dan pemetaan potensi agar Staf Khusus dapat menjadi ujung tombak strategis dalam mendukung kinerja legislatif SEMA-FST secara berkelanjutan.
+                            </p>
+                            
+                            <h3 class="font-bold text-lg mb-2 text-primary">SEMA-FST</h3>
+                            <p class="mb-4">
+                                Sebagai lembaga legislatif mahasiswa di tingkat fakultas, SEMA-FST memiliki fungsi utama dalam hal legislasi, pengawasan, dan anggaran. Dalam sistem student government di UIN Sunan Gunung Djati Bandung, SEMA-FST berperan sebagai representasi mahasiswa dalam pengambilan keputusan, pembuatan peraturan, serta pengawasan terhadap pelaksanaan program oleh lembaga eksekutif (DEMA-FST dan HMJ).
+                            </p>
+                            <p class="mb-4">
+                                Namun, dalam praktiknya, SEMA-FST menghadapi sejumlah persoalan internal yang cukup serius. Komitmen sebagian pengurus masih lemah, solidaritas belum merata, dan partisipasi aktif dalam kerja kelembagaan cenderung terbatas. Setelah pelaksanaan Prolegma, SEMA-FST mengalami tantangan besar dalam penyusunan dan perbaikan produk hukum, yang diperparah oleh belum diperbaruinya Konstitusi Keluarga Mahasiswa di tingkat Universitas yang mana menjadi acuan SEMA-FST dalam penyusunan PERSEMA-FST. Sebagai solusi, SEMA-FST mengacu pada SK Dirjen No. 3814 Tahun 2024 dari Kementerian Agama RI sebagai rujukan hukum sementara.
+                            </p>
+                            <p class="mb-4">
+                                Kemajemukan budaya organisasi dan kurangnya komunikasi membuat koordinasi antar lembaga menjadi tidak efektif. Selain itu, minimnya kepercayaan dari organisasi eksekutif terhadap SEMA dalam distribusi kader menyebabkan SEMA kesulitan dalam melakukan regenerasi yang kuat. Akibatnya, peran SEMA dalam merancang dan menetapkan arah kebijakan kemahasiswaan belum dapat dijalankan secara maksimal.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Eksternal -->
+                <div class="mb-8">
+                    <button class="accordion-button w-full flex justify-between items-center bg-primary text-white px-6 py-4 rounded-lg shadow-md hover:bg-blue-800 transition">
+                        <span class="text-xl font-medium">Kondisi Eksternal</span>
+                        <i class="fas fa-chevron-down transition-transform duration-300"></i>
+                    </button>
+                    <div class="accordion-content bg-white px-6 rounded-b-lg shadow-md text-justify">
+                        <div class="py-4">
+                            <h3 class="font-bold text-lg mb-2 text-primary">Fakultas Sains dan Teknologi</h3>
+                            <p class="mb-4">
+                                Fakultas Sains dan Teknologi (FST) UIN Sunan Gunung Djati Bandung merupakan wadah akademik yang menjadi payung struktural dan administratif SEMA-FST. Sebagai institusi, fakultas memiliki peran penting dalam menetapkan kebijakan, menyediakan fasilitas, serta membentuk iklim akademik dan organisasi mahasiswa. Namun, dalam beberapa periode terakhir, terdapat tantangan dalam menjembatani aspirasi dan kebutuhan mahasiswa dengan kebijakan fakultas, termasuk keterbatasan komunikasi dua arah dan belum optimalnya fasilitasi program kerja yang berbasis kolaborasi.
+                            </p>
+                            <p class="mb-4">
+                                Fakultas juga menunjukkan kecenderungan untuk lebih fokus pada aspek akademik dan akreditasi, sementara sinergi dengan kelembagaan mahasiswa belum sepenuhnya maksimal. Hal ini menuntut SEMA-FST untuk menjadi jembatan aktif yang mampu mempertemukan agenda mahasiswa dengan kebijakan fakultas, baik dalam ranah advokasi, maupun peningkatan kapasitas kemahasiswaan.
+                            </p>
+                            
+                            <h3 class="font-bold text-lg mb-2 text-primary">DEMA-FST</h3>
+                            <p class="mb-4">
+                                DEMA-FST sebagai organisasi ekstekutif Tingkat fakultas menjadi wadah dalam meningkatkan kemampuan interpersonal mahasiswa saintek. Sebagai pelaksana undang-undang, DEMA-FST harus melaksanakan program kerja yang sesuai dengan PERSEMA 06 GBPK sebagai acuan yang telah ditetapkan oleh SEMA-FST. Dengan demikian dalam rangka mencapai tujuan dari FST dan kemaslahatan bersama harus terciptanya sinergitas antara DEMA-FST dan SEMA-FST. Bentuk sinergitas yang telah tercapai dalam ranah kaderisasi ialah Kampus Cendikiawan Muslim (KCM) yang merupakan kolaborasi antara SL (Sekolah Legislatif) yang diselenggarakan SEMA-FST dengan SLDC dan SL yang diselenggarakan oleh DEMA-FST menghasilkan output kaderisasi yang kongkrit. Hal tersebut bisa membangun masyarakat saintek yang unggul, adil dan makmur untuk menunjang masa depan FST. Tidak hanya sampai disitu, sinergitaspun harus terjalin dalam ruang diskusi dan advokasi untuk menyelesaikan permasalahan fakultas secara bersama dan kolektif.
+                            </p>
+                            
+                            <h3 class="font-bold text-lg mb-2 text-primary">HMJ di FST</h3>
+                            <p class="mb-4">
+                                a.	HIMATIF (Himpunan Mahasiswa Teknik Informatika) <br/>
+                                Berdasarkan hasil diskusi dengan Ex-officio dan Presidium bidang PAO Himatif, mengmukakan bahwa SEMA-FST seharusnya bisa membawa kemaslahatan bersama di lingkup fakultas, namun pada faktanya komunikasi dan kejelasan SEMA-FST terhadap fungsinya belum berjalan sepenuhnya, hal tersebut terlihat dari timeline dan agenda yang sudah dikolektifkan oleh SEMA-FST tidak bisa disusun secara baik sehingga masih banyak agenda-agenda yang berbentrokan atau tidak sesuai dengan timeline
+                            </p>
+                            <p class="mb-4">
+                                b. HIMASAKI (Himpunan Mahasiswa Sains Kimia) <br/>
+                                Berdasarkan hasil wawancara dengan Ketua Umum HIMASAKI 2025, terdapat evaluasi kritis mengenai internalisasi rasa kepemilikan antar pengurus SEMA-FST. “Menurutnya, Staff Khusus terlihat lebih dominan dibandingkan Senator.” Hal ini menunjukkan bahwa pembagian peran dan penguatan kepemimpinan kolektif di tubuh SEMA-FST masih perlu dibenahi. Walau demikian, apresiasi diberikan terhadap kinerja Staffsus yang mampu mengisi kekosongan dan memperkuat pelaksanaan tupoksi kelembagaan.
+                            </p>
+                            <p class="mb-4">
+                                c. KMHB (Keluarga Mahasiswa Himpunan Biologi) <br/>
+                                KMHB menyoroti bahwa Senator memiliki peran penting terutama saat pelaksanaan Prolegma. Senator dianggap sebagai ujung tombak legislasi, namun sayangnya, hasil Prolegma belum diparipurnakan sehingga sistem hukum kelembagaan menjadi ambigu. Pengawasan dan fungsi budgeting juga dianggap belum berjalan maksimal, hanya bersandar pada momentum Musyawarah Komisariat (Muskom).
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Analisis SWOT -->
+    <section id="swot" class="py-16 bg-white">
+        <div class="container mx-auto px-4">
+            <h2 class="text-3xl md:text-4xl font-bold text-primary mb-12 text-center">Analisis SWOT</h2>
+            
+            <div class="max-w-4xl mx-auto">
+                <div class="flex flex-wrap justify-center gap-4 mb-8">
+                    <button id="personalBtn" class="swot-toggle px-6 py-3 bg-primary text-white rounded-full font-medium hover:bg-blue-800 transition active">SWOT Personal</button>
+                    <button id="semaBtn" class="swot-toggle px-6 py-3 bg-gray-200 text-gray-800 rounded-full font-medium hover:bg-gray-300 transition">SWOT SEMA-FST</button>
+                </div>
+                
+                <!-- Personal SWOT -->
+                <div id="personalSwot" class="swot-content active bg-secondary p-6 rounded-lg shadow-md">
+                    <div class="grid md:grid-cols-2 gap-6 text-justify">
+                        <div class="bg-white p-4 rounded-lg">
+                            <h3 class="font-bold text-lg mb-3 text-primary flex items-center">
+                                <i class="fas fa-thumbs-up mr-2 text-green-500"></i> Strengths (Kekuatan)
+                            </h3>
+                            <ul class="list-disc pl-5 space-y-2">
+                                Kekuatan terbesar yang ada dalam diri saya adalah kemampuan retorika dan diplomasi yang baik sehingga saya dapat berkoordinasi dengan ormawa eksekutif untuk menyelaraskan arah gerak sesuai dengan PERSEMA-FST. Sebagai mahasiswa Informatika, saya dibekali dengan computational thinking sangat membantu saya dalam memecahkan suatu permasalahan dan merancang konsep secara terstruktur dan tersistematis, sehingga keputusan yan diambil dapat dipertanggung jawabkan untuk menjaga keberlangsungan dari kinerja ormawa FST sesuai dengan acuan yang ada.
+                            </ul>
+                        </div>
+                        
+                        <div class="bg-white p-4 rounded-lg">
+                            <h3 class="font-bold text-lg mb-3 text-primary flex items-center">
+                                <i class="fas fa-thumbs-down mr-2 text-red-500"></i> Weaknesses (Kelemahan)
+                            </h3>
+                            <ul class="list-disc pl-5 space-y-2">
+                                Hal yang menjadi kelemahan dari dalam diri saya adalah Manajerial yang disebabkan oleh sistem zona nyaman yang terbentuk atas dasar kebiasan buruk saya dalam kehidupan sehari-hari dan selalu menggap ringan semua persoalan akibat zona nyaman tersebut. namun hal tersebut sudah saya antisipasi dengan saya mengisi kesibukan saya dengan aktivitas yang produktif (profesional) dan telah tercatat dalam buku catatan dan white board harian saya secara terstruktur.
+                            </ul>
+                        </div>
+                        
+                        <div class="bg-white p-4 rounded-lg">
+                            <h3 class="font-bold text-lg mb-3 text-primary flex items-center">
+                                <i class="fas fa-bullseye mr-2 text-blue-500"></i> Opportunities (Peluang)
+                            </h3>
+                            <ul class="list-disc pl-5 space-y-2">
+                                Dengan aktivitas yang saya lakukan, saya memiliki relasi yang cukup dikenal terkhusus para stake holder di ormawa internal kampus yang cukup baik yang didorog kemampuan diplomasi dan retorika saya. Terlihat dengan pengalaman organisasi saya yang mempermudah saya untuk berkomunikasi secara intens untuk memecahakan permasahalan.
+                            </ul>
+                        </div>
+                        
+                        <div class="bg-white p-4 rounded-lg">
+                            <h3 class="font-bold text-lg mb-3 text-primary flex items-center">
+                                <i class="fas fa-exclamation-triangle mr-2 text-yellow-500"></i> Threats (Ancaman)
+                            </h3>
+                            <ul class="list-disc pl-5 space-y-2">
+                                Saya yang memiliki banyak aktivitas yang memungkinkan untuk sulit menentukan skala prioritas dimana urusan organisasi dan urusan profesional, juga menjadikan organisasi sebagai play ground saya ketika saya lelah, membuat saya terhambat dalam menyelesaikan studi tepat waktu. namun hal tersebut sudah saya petakan menggunakan Matriks Eisenhower.
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- SEMA-FST SWOT -->
+                <div id="semaSwot" class="swot-content bg-secondary p-6 rounded-lg shadow-md">
+                    <div class="grid md:grid-cols-2 gap-6 text-justify">
+                        <div class="bg-white p-4 rounded-lg">
+                            <h3 class="font-bold text-lg mb-3 text-primary flex items-center">
+                                <i class="fas fa-thumbs-up mr-2 text-green-500"></i> Strengths (Kekuatan)
+                            </h3>
+                            <ul class="list-disc pl-5 space-y-2">
+                                Memiliki fungsi legislasi dan fungsi pengawasan dalam menentukan arah gerak ormawa secara kolektif juga kinerja dari ormawa eksekutif untuk menciptakan kemaslahatan dan visi misi fakultas bersama. Sebagai fungsi anggaran ormawa FST, SEMA-FST bisa menekan budgeting pada ormawa FST untuk mengadakan prokernya. sehingga proker yang diadakan bukan di orientasika pada kemewahan tetapi pada esensi dan nilai yang dibawa oleh setiap ormawa FST.
+                            </ul>
+                        </div>
+                        
+                        <div class="bg-white p-4 rounded-lg">
+                            <h3 class="font-bold text-lg mb-3 text-primary flex items-center">
+                                <i class="fas fa-thumbs-down mr-2 text-red-500"></i> Weaknesses (Kelemahan)
+                            </h3>
+                            <ul class="list-disc pl-5 space-y-2">
+                                Kelemahan terbesar dalam lembaga SEMA-FST terletak pada internal nya, yang dimana para senator kurang memahami secara utuh hal ihwal lembaga legislatif. Komunikasi belum terjalin secara maksimal antara SEMA-FST, DEMA-FST dan HMJ shingga belum terealisasinya fungsi SEM-FST secara kesuluruhan.
+                            </ul>
+                        </div>
+                        
+                        <div class="bg-white p-4 rounded-lg">
+                            <h3 class="font-bold text-lg mb-3 text-primary flex items-center">
+                                <i class="fas fa-bullseye mr-2 text-blue-500"></i> Opportunities (Peluang)
+                            </h3>
+                            <ul class="list-disc pl-5 space-y-2">
+                                Mampu menyadarkan mahasiswa bahwa aturan dan kebijakan yang dibuat sangatlah penting dalam melaksanakan program kerja ormawa eksekutif sesuai dengan konstitusi untuk mencapai keteraturan dan kemaslahatan bersama.
+                            </ul>
+                        </div>
+                        
+                        <div class="bg-white p-4 rounded-lg">
+                            <h3 class="font-bold text-lg mb-3 text-primary flex items-center">
+                                <i class="fas fa-exclamation-triangle mr-2 text-yellow-500"></i> Threats (Ancaman)
+                            </h3>
+                            <ul class="list-disc pl-5 space-y-2">
+                                Kurangnya kepercayaan ormawa eksekutif terhadap SEMA menimbulkan kurangnya minat mahasiswa SEMA kepada masyarakat saintek sehingga sulit untuk melakukan regenerasi secara optimal, namun hal tersebut telah diantisipasi dengan diadakannya pendidikan staffsus untuk memberikan pemaham dan ketertarikan mahasiswa kepada legislati
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Kesimpulan Gagasan -->
+    <section class="py-16 bg-primary text-white">
+        <div class="container mx-auto px-4">
+            <div class="max-w-4xl mx-auto text-justify">
+                <h2 class="text-3xl md:text-4xl font-bold mb-8 text-center">Kesimpulan dan Gagasan</h2>
+                <p class="mb-6 text-lg">
+                    Berdasarkan hasil analisis kondisi melalui wawancara dengan pihak-pihak strategis di lingkungan Fakultas Sains dan Teknologi, ditemukan bahwa SEMA-FST menghadapi tantangan internal maupun eksternal yang cukup kompleks. Dari internal, minimnya kesadaran peran di antara senator menyebabkan lemahnya pelaksanaan fungsi legislatif yang semestinya menjadi jantung pengambilan arah gerak kelembagaan. HMJ seperti HIMATIF dan HIMASAKI menyoroti bahwa kurangnya koordinasi agenda dan ketidakterpaduan fungsi antara Senator dan Staff Khusus menyebabkan disorientasi dalam kerja kelembagaan. DEMA-FST menyampaikan pentingnya kesinambungan sinergi, khususnya pasca kolaborasi kaderisasi seperti Kampus Cendekiawan Muslim (KCM), yang belum disertai dengan kesinambungan advokasi kebijakan. Dari pihak fakultas, terdapat pengakuan bahwa komunikasi dua arah belum berjalan maksimal, dan fasilitasi terhadap kerja lembaga mahasiswa masih lebih berfokus pada aspek administratif-akademik daripada kolaboratif-strategis. Situasi ini menunjukkan bahwa SEMA-FST perlu melakukan reformasi kelembagaan menyeluruh.
+                    <br/><br/>
+                    Dalam kerangka ideal, SK Dirjen Pendis Kementerian Agama Republik Indonesia No. 3814 Tahun 2024 menegaskan bahwa SEMA adalah lembaga legislatif mahasiswa di tingkat fakultas yang memiliki tiga peran utama: menyusun dan mengesahkan kebijakan kemahasiswaan, mengawasi jalannya implementasi kebijakan, dan menjadi mitra strategis dekanat dalam mewujudkan tata kelola kemahasiswaan berbasis nilai-nilai Islam, akademik, dan kebangsaan. Ketiga fungsi ini menuntut SEMA-FST untuk tidak hanya berperan sebagai pengesah formal kebijakan, tetapi sebagai motor ide dan penggerak perubahan mahasiswa yang berbasis pada aspirasi, data, dan nilai.
+                    <br/><br/>
+                    Dari integrasi antara analisis kondisi dan kerangka ideal tersebut, maka lahirlah gagasan utama untuk membentuk SEMA-FST sebagai lembaga legislatif yang <span class="font-bold">progresif</span>, <span class="font-bold">kolaboratif</span>, dan <span class="font-bold">transformatif.</span>  Reformasi ini akan dilakukan melalui penguatan kanal aspirasi digital yang terbuka dan inklusif, pembentukan Legislative Working Group bersama DEMA dan HMJ, pembangunan kurikulum kaderisasi legislatif yang terstruktur, serta pelaksanaan fungsi pengawasan berbasis sistem pelaporan transparan yang dapat diakses oleh masyarakat mahasiswa saintek. Selain itu, dibutuhkan Forum Tri-Lembaga antara SEMA, DEMA, dan Fakultas, agar pengambilan kebijakan strategis bisa berjalan secara sinergis dan solutif.
+                    <br/><br/>
+                    Adapun nilai-nilai utama yang tercermin dari hasil analisis kondisi ini adalah: kejujuran (shidq), tanggung jawab (amanah), keadilan (‘adl), musyawarah (syura), serta nilai kolaborasi, transparansi, dan akuntabilitas. Nilai-nilai ini sejalan dengan prinsip dalam Al-Qur’an dan tradisi kepemimpinan Islam yang menempatkan amanah sebagai pusat dari tanggung jawab sosial dan moral. Selain itu, nilai profetik-transformatif sebagaimana diajarkan oleh Prof. Kuntowijoyo juga menjadi landasan dalam membangun lembaga yang humanis dan berpihak pada kepentingan kolektif mahasiswa.
+                </p>
+                
+                <div class="quote-box bg-blue-900 bg-opacity-30 p-6 rounded-lg my-8">
+                    <p class="italic text-xl">"Legislasi yang baik bukan hanya tentang membuat aturan, tetapi tentang menciptakan sistem yang memungkinkan setiap mahasiswa berkembang sesuai potensi terbaiknya dengan tetap berpegang pada nilai-nilai Islam."</p>
+                </div>
+                
+                <p class="text-lg">
+                    Dalam konteks inilah, saya berkomitmen ingin <span class="italic">"menjadikan SEMA-FST sebagai pusat legislasi mahasiswa yang progresif, kolaboratif, dan transformatif yang berlandaskan nilai islam demi mewujudkan mahasiswa yang berkualitas muslim inteligensia yang menjunjung tinggi nilai kebenaran, keadilan, dan kebermanfaatan."</span> Upaya ini tidak hanya berfokus pada pelaksanaan fungsi formal legislatif, tetapi juga mengintegrasikan idealisme keislaman, intelektualitas, dan keadilan sosial sebagai landasan gerak. Hal tersebut saya rumuskan dalam visi <span class="font-bold">“Dharma Cita”</span>, di mana Dharma bermakna tugas moral dan tanggung jawab luhur, sedangkan Cita bermakna pikiran, harapan, dan cita-cita kolektif.</span> 
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Visi & Misi -->
+    <section id="visi-misi" class="py-16 bg-white">
+        <div class="container mx-auto px-4">
+            <h2 class="text-3xl md:text-4xl font-bold text-primary mb-12 text-center">Visi & Misi</h2>
+            
+            <div class="max-w-4xl mx-auto">
+                <div class="text-center mb-12">
+                    <h3 class="text-2xl md:text-3xl font-bold text-primary mb-4">Visi</h3>
+                    <p class="text-3xl md:text-4xl font-bold bg-primary text-white py-4 px-8 rounded-lg inline-block">Dharma Cita</p>
+                </div>
+                
+                <div>
+                    <h3 class="text-2xl md:text-3xl font-bold text-primary mb-6 text-center">Misi</h3>
+                    <div class="space-y-4">
+                        <div class="flex items-start bg-secondary p-4 rounded-lg">
+                            <div class="bg-primary text-white p-3 rounded-full mr-4">
+                                <i class="fas fa-balance-scale text-lg"></i>
+                            </div>
+                            <div>
+                                <h4 class="font-bold text-lg mb-1">Menguatkan fungsi legislasi dan pengawasan SEMA-FST melalui sistem kerja yang transparan, terstruktur, dan berbasis digital.</h4>
+                                <p>Membangun sistem legislasi yang responsif terhadap kebutuhan mahasiswa dengan produk hukum yang jelas, terukur, dan implementatif.</p>
+                            </div>
+                        </div>
+                        
+                        <div class="flex items-start bg-secondary p-4 rounded-lg">
+                            <div class="bg-primary text-white p-3 rounded-full mr-4">
+                                <i class="fas fa-users text-lg"></i>
+                            </div>
+                            <div>
+                                <h4 class="font-bold text-lg mb-1">Membangun pola komunikasi strategis dengan seluruh elemen kelembagaan mahasiswa untuk memastikan keselarasan arah gerak ormawa</h4>
+                                <p>Menciptakan mekanisme yang inklusif untuk memastikan setiap mahasiswa dapat menyampaikan aspirasi dan terlibat dalam proses legislasi.</p>
+                            </div>
+                        </div>
+                        
+                        <div class="flex items-start bg-secondary p-4 rounded-lg">
+                            <div class="bg-primary text-white p-3 rounded-full mr-4">
+                                <i class="fas fa-handshake text-lg"></i>
+                            </div>
+                            <div>
+                                <h4 class="font-bold text-lg mb-1">Menjalankan kaderisasi legislatif berkelanjutan melalui pelatihan dan kurikulum penguatan kapasitas senator dan staffsus.</h4>
+                                <p>Menyelenggarakan program peningkatan kompetensi bagi anggota legislatif untuk menghasilkan kebijakan yang berkualitas.</p>
+                            </div>
+                        </div>
+                        
+                        <div class="flex items-start bg-secondary p-4 rounded-lg">
+                            <div class="bg-primary text-white p-3 rounded-full mr-4">
+                                <i class="fas fa-graduation-cap text-lg"></i>
+                            </div>
+                            <div>
+                                <h4 class="font-bold text-lg mb-1">Mendorong lahirnya produk hukum kelembagaan yang substansial dan sejalan dengan aspirasi mahasiswa saintek</h4>
+                                <p>Membangun sinergi dengan eksekutif mahasiswa, HMJ, dan pihak fakultas untuk kebijakan yang holistik dan berkelanjutan.</p>
+                            </div>
+                        </div>
+                        
+                        <div class="flex items-start bg-secondary p-4 rounded-lg">
+                            <div class="bg-primary text-white p-3 rounded-full mr-4">
+                                <i class="fas fa-book text-lg"></i>
+                            </div>
+                            <div>
+                                <h4 class="font-bold text-lg mb-1">Menjadi mitra strategis fakultas dalam menyalurkan aspirasi mahasiswa dan merancang kebijakan kemahasiswaan yang berpihak pada kebutuhan kolektif.</h4>
+                                <p>Menerapkan sistem pelaporan yang terbuka dan mudah diakses oleh seluruh mahasiswa sebagai bentuk pertanggungjawaban.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Tafsir Visi Misi -->
+    <section class="py-16 bg-secondary">
+        <div class="container mx-auto px-4">
+            <div class="max-w-4xl mx-auto">
+                <h2 class="text-3xl md:text-4xl font-bold text-primary mb-8 text-center">Tafsir Visi dan Misi</h2>
+                
+                <div class="mb-6">
+                    <h3 class="text-2xl font-bold text-primary mb-3">Dharma: Tugas Moral</h3>
+                    <p class="mb-4">Dalam konteks perjuangan legislatif, <span class="font-bold">Dharma</span> dimaknai sebagai tanggung jawab moral untuk menjalankan amanah dengan sebaik-baiknya. Sebagai muslim, setiap kebijakan yang diusulkan harus sejalan dengan nilai-nilai Islam yang rahmatan lil 'alamin.</p>
+                    <p>Legislator memiliki dharma untuk memastikan bahwa setiap produk hukum yang dihasilkan tidak hanya memenuhi kebutuhan pragmatis, tetapi juga memiliki dimensi moral yang jelas dan dapat dipertanggungjawabkan di hadapan Allah SWT.</p>
+                </div>
+                
+                <div class="mb-6">
+                    <h3 class="text-2xl font-bold text-primary mb-3">Cita: Visi Intelektual</h3>
+                    <p class="mb-4"><span class="font-bold">Cita</span> merepresentasikan cita-cita luhur mahasiswa muslim sebagai intelektual yang mampu memberikan solusi bagi permasalahan umat. Legislasi harus menjadi instrumen strategis untuk mewujudkan kampus yang unggul secara akademik dan bermoral.</p>
+                    <p>Sebagai intelektual muda, mahasiswa FST harus mampu memadukan kecanggihan sains dan teknologi dengan nilai-nilai ketuhanan, dan legislasi adalah salah satu jalur untuk mewujudkan sintesis ini.</p>
+                </div>
+                
+                <div class="quote-box bg-white p-6 rounded-lg shadow-md my-8 border-l-4 border-primary">
+                    <p class="italic text-xl">"Tugas kita bukan hanya membuat aturan, tetapi menciptakan ekosistem kampus yang memungkinkan setiap mahasiswa menemukan jati dirinya sebagai hamba Allah yang berilmu, beramal, dan bermanfaat bagi sesama."</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Program Kerja -->
+    <section id="program" class="py-16 bg-white">
+        <div class="container mx-auto px-4">
+            <h2 class="text-3xl md:text-4xl font-bold text-primary mb-12 text-center">Program Kerja Unggulan</h2>
+            
+            <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8 max-w-6xl mx-auto">
+                <!-- Program 1 -->
+                <div class="bg-white rounded-xl shadow-md overflow-hidden border border-gray-100 card-hover transition duration-300">
+                    <div class="bg-primary p-4 text-white">
+                        <h3 class="text-xl font-bold">FORFAS</h3>
+                    </div>
+                    <div class="p-6">
+                        <div class="mb-4">
+                            <h4 class="font-bold text-primary mb-2">Tujuan:</h4>
+                            <p>Membentuk forum triwulan advokasi mahasiswa FST untuk membahas isu-isu strategis.</p>
+                        </div>
+                        <div class="mb-4">
+                            <h4 class="font-bold text-primary mb-2">Output:</h4>
+                            <ul class="list-disc pl-5 space-y-1">
+                                <li>Rekomendasi kebijakan strategis</li>
+                                <li>Peta jalan kemahasiswaan FST</li>
+                                <li>Dokumen aspirasi mahasiswa</li>
+                            </ul>
+                        </div>
+                        <div>
+                            <h4 class="font-bold text-primary mb-2">Nilai:</h4>
+                            <div class="flex flex-wrap gap-2">
+                                <span class="bg-blue-100 text-blue-800 text-xs px-3 py-1 rounded-full">Musyawarah</span>
+                                <span class="bg-blue-100 text-blue-800 text-xs px-3 py-1 rounded-full">Inklusivitas</span>
+                                <span class="bg-blue-100 text-blue-800 text-xs px-3 py-1 rounded-full">Strategis</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Program 2 -->
+                <div class="bg-white rounded-xl shadow-md overflow-hidden border border-gray-100 card-hover transition duration-300">
+                    <div class="bg-primary p-4 text-white">
+                        <h3 class="text-xl font-bold">Dharma Watch</h3>
+                    </div>
+                    <div class="p-6">
+                        <div class="mb-4">
+                            <h4 class="font-bold text-primary mb-2">Tujuan:</h4>
+                            <p>Mengawasi implementasi kebijakan kampus dan mengevaluasi kinerja eksekutif mahasiswa.</p>
+                        </div>
+                        <div class="mb-4">
+                            <h4 class="font-bold text-primary mb-2">Output:</h4>
+                            <ul class="list-disc pl-5 space-y-1">
+                                <li>Laporan evaluasi semesteran</li>
+                                <li>Rekomendasi perbaikan kebijakan</li>
+                                <li>Scorecard kinerja organisasi</li>
+                            </ul>
+                        </div>
+                        <div>
+                            <h4 class="font-bold text-primary mb-2">Nilai:</h4>
+                            <div class="flex flex-wrap gap-2">
+                                <span class="bg-blue-100 text-blue-800 text-xs px-3 py-1 rounded-full">Amanah</span>
+                                <span class="bg-blue-100 text-blue-800 text-xs px-3 py-1 rounded-full">Akuntabel</span>
+                                <span class="bg-blue-100 text-blue-800 text-xs px-3 py-1 rounded-full">Transparan</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Program 3 -->
+                <div class="bg-white rounded-xl shadow-md overflow-hidden border border-gray-100 card-hover transition duration-300">
+                    <div class="bg-primary p-4 text-white">
+                        <h3 class="text-xl font-bold">Dharma Cita Academy</h3>
+                    </div>
+                    <div class="p-6">
+                        <div class="mb-4">
+                            <h4 class="font-bold text-primary mb-2">Tujuan:</h4>
+                            <p>Meningkatkan kapasitas anggota legislatif dalam menyusun kebijakan berbasis nilai-nilai profetik.</p>
+                        </div>
+                        <div class="mb-4">
+                            <h4 class="font-bold text-primary mb-2">Output:</h4>
+                            <ul class="list-disc pl-5 space-y-1">
+                                <li>Modul legislasi profetik</li>
+                                <li>Anggota legislatif yang kompeten</li>
+                                <li>Standar operasional legislasi</li>
+                            </ul>
+                        </div>
+                        <div>
+                            <h4 class="font-bold text-primary mb-2">Nilai:</h4>
+                            <div class="flex flex-wrap gap-2">
+                                <span class="bg-blue-100 text-blue-800 text-xs px-3 py-1 rounded-full">Profesional</span>
+                                <span class="bg-blue-100 text-blue-800 text-xs px-3 py-1 rounded-full">Ihsan</span>
+                                <span class="bg-blue-100 text-blue-800 text-xs px-3 py-1 rounded-full">Kompeten</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Program 4 -->
+                <div class="bg-white rounded-xl shadow-md overflow-hidden border border-gray-100 card-hover transition duration-300">
+                    <div class="bg-primary p-4 text-white">
+                        <h3 class="text-xl font-bold">Peta Aspirasi Mahasiswa</h3>
+                    </div>
+                    <div class="p-6">
+                        <div class="mb-4">
+                            <h4 class="font-bold text-primary mb-2">Tujuan:</h4>
+                            <p>Memetakan dan mendokumentasikan aspirasi mahasiswa secara sistematis dan terstruktur.</p>
+                        </div>
+                        <div class="mb-4">
+                            <h4 class="font-bold text-primary mb-2">Output:</h4>
+                            <ul class="list-disc pl-5 space-y-1">
+                                <li>Database aspirasi digital</li>
+                                <li>Prioritas isu mahasiswa</li>
+                                <li>Dashboard monitoring</li>
+                            </ul>
+                        </div>
+                        <div>
+                            <h4 class="font-bold text-primary mb-2">Nilai:</h4>
+                            <div class="flex flex-wrap gap-2">
+                                <span class="bg-blue-100 text-blue-800 text-xs px-3 py-1 rounded-full">Responsif</span>
+                                <span class="bg-blue-100 text-blue-800 text-xs px-3 py-1 rounded-full">Data-driven</span>
+                                <span class="bg-blue-100 text-blue-800 text-xs px-3 py-1 rounded-full">Terukur</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Program 5 -->
+                <div class="bg-white rounded-xl shadow-md overflow-hidden border border-gray-100 card-hover transition duration-300">
+                    <div class="bg-primary p-4 text-white">
+                        <h3 class="text-xl font-bold">Ruang Cita</h3>
+                    </div>
+                    <div class="p-6">
+                        <div class="mb-4">
+                            <h4 class="font-bold text-primary mb-2">Tujuan:</h4>
+                            <p>Menyediakan platform diskusi dan pengembangan ide-ide inovatif mahasiswa FST.</p>
+                        </div>
+                        <div class="mb-4">
+                            <h4 class="font-bold text-primary mb-2">Output:</h4>
+                            <ul class="list-disc pl-5 space-y-1">
+                                <li>Forum diskusi bulanan</li>
+                                <li>Program inkubasi ide</li>
+                                <li>Jaringan kolaborasi mahasiswa</li>
+                            </ul>
+                        </div>
+                        <div>
+                            <h4 class="font-bold text-primary mb-2">Nilai:</h4>
+                            <div class="flex flex-wrap gap-2">
+                                <span class="bg-blue-100 text-blue-800 text-xs px-3 py-1 rounded-full">Kreatif</span>
+                                <span class="bg-blue-100 text-blue-800 text-xs px-3 py-1 rounded-full">Inovatif</span>
+                                <span class="bg-blue-100 text-blue-800 text-xs px-3 py-1 rounded-full">Kolaboratif</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Program 6 - Additional -->
+                <div class="bg-white rounded-xl shadow-md overflow-hidden border border-gray-100 card-hover transition duration-300">
+                    <div class="bg-primary p-4 text-white">
+                        <h3 class="text-xl font-bold">Legislasi Digital</h3>
+                    </div>
+                    <div class="p-6">
+                        <div class="mb-4">
+                            <h4 class="font-bold text-primary mb-2">Tujuan:</h4>
+                            <p>Membangun sistem legislasi digital untuk meningkatkan transparansi dan partisipasi.</p>
+                        </div>
+                        <div class="mb-4">
+                            <h4 class="font-bold text-primary mb-2">Output:</h4>
+                            <ul class="list-disc pl-5 space-y-1">
+                                <li>Platform e-legislasi</li>
+                                <li>Sistem voting online</li>
+                                <li>Arsip digital produk hukum</li>
+                            </ul>
+                        </div>
+                        <div>
+                            <h4 class="font-bold text-primary mb-2">Nilai:</h4>
+                            <div class="flex flex-wrap gap-2">
+                                <span class="bg-blue-100 text-blue-800 text-xs px-3 py-1 rounded-full">Modern</span>
+                                <span class="bg-blue-100 text-blue-800 text-xs px-3 py-1 rounded-full">Aksesibel</span>
+                                <span class="bg-blue-100 text-blue-800 text-xs px-3 py-1 rounded-full">Efisien</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-primary text-white py-12">
+        <div class="container mx-auto px-4">
+            <div class="max-w-4xl mx-auto">
+                <div class="flex flex-col md:flex-row justify-between items-center mb-8">
+                    <div class="mb-6 md:mb-0">
+                        <h3 class="text-2xl font-bold mb-2">Febryo Fibonacci Amadeo</h3>
+                        <p class="opacity-80">Calon Pengurus SEMA-FST Tahun 2025</p>
+                    </div>
+                    <div class="flex space-x-6">
+                        <a href="#" class="text-white hover:text-blue-200 transition text-xl">
+                            <i class="fab fa-linkedin"></i>
+                        </a>
+                        <a href="#" class="text-white hover:text-blue-200 transition text-xl">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                        <a href="#" class="text-white hover:text-blue-200 transition text-xl">
+                            <i class="fas fa-envelope"></i>
+                        </a>
+                    </div>
+                </div>
+                
+                <div class="border-t border-blue-800 pt-8">
+                    <div class="flex flex-col md:flex-row justify-between items-center">
+                        <p class="mb-4 md:mb-0 opacity-80">© 2025 Dharma Cita. All rights reserved.</p>
+                        <a href="#" class="px-4 py-2 bg-blue-800 rounded-full hover:bg-blue-700 transition">
+                            Download CV <i class="fas fa-download ml-2"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="main.js"></script>
+</body>
+</html>
