@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+    <title>Febryo Fibonacci Amadeo - Software & AI Engineer</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/styles.css">
+  </head>
+  <body>
+    <div id="cursorGlow" aria-hidden="true"></div>
+
+    <div id="bgLayer">
+      <div id="bgParallax">
+        <div class="grid"></div>
+        <div class="glow g1"></div>
+        <div class="glow g2"></div>
+      </div>
+    </div>
+
+    <div class="boot-screen" id="bootScreen">
+      <div class="boot-mark" id="bootMark"></div>
+      <div class="boot-bar"><div class="boot-bar-fill" id="bootBarFill"></div></div>
+      <div class="boot-status mono" id="bootStatus"></div>
+    </div>
+
+    <div class="frame">
+      <nav class="index" id="indexNav">
+        <span class="mark">FF</span>
+        <div class="rail"><div class="rail-fill" id="railFill"></div></div>
+        <ul>
+          <li><button data-target="about">Profile</button></li>
+          <li><button data-target="experience">Experience</button></li>
+          <li><button data-target="projects">Portofolio</button></li>
+          <li><button data-target="certifications">Certification</button></li>
+          <li><button data-target="skills">Skills</button></li>
+          <li><button data-target="blog">Blog</button></li>
+          <li><button data-target="contact">Contact</button></li>
+        </ul>
+      </nav>
+
+      <main>
+        <!-- Hero -->
+        <section class="hero" id="hero">
+          <div class="section-bg"></div>
+          <div class="hero-content">
+            <div class="kicker"><span class="dot"></span><span id="heroKicker"></span></div>
+            <h1 id="heroName"></h1>
+            <p class="role" id="heroRole"></p>
+            <div class="cta-row" id="heroCta"></div>
+          </div>
+          <canvas id="heroCanvas"></canvas>
+        </section>
+
+        <!-- About -->
+        <section id="about">
+          <div class="section-bg"></div>
+          <div class="section-head"><h2>Profile</h2><span class="code mono" id="aboutMeta"></span></div>
+          <div class="panel">
+            <span class="bl"></span><span class="br"></span>
+            <div class="about-grid">
+              <div class="photo-frame" id="photoFrame"></div>
+              <div class="measure" id="aboutBody"></div>
+            </div>
+          </div>
+        </section>
+
+        <!-- Experience -->
+        <section id="experience">
+          <div class="section-bg"></div>
+          <div class="section-head"><h2>Experience</h2><span class="code mono" id="expMeta"></span></div>
+          <div class="panel"><span class="bl"></span><span class="br"></span><div id="timeline"></div></div>
+        </section>
+
+        <!-- Projects -->
+        <section id="projects">
+          <div class="section-bg"></div>
+          <div class="section-head"><h2>Portofolio</h2><span class="code mono" id="projMeta"></span></div>
+          <div class="gallery" id="gallery"></div>
+        </section>
+
+        <!-- Certification & Achievment -->
+        <section id="certifications">
+          <div class="section-bg"></div>
+          <div class="section-head"><h2>Certification &amp; Achievment</h2><span class="code mono" id="certMeta"></span></div>
+          <div class="cert-grid" id="certGrid"></div>
+        </section>
+
+        <!-- Skills -->
+        <section id="skills">
+          <div class="section-bg"></div>
+          <div class="section-head"><h2>Skills</h2><span class="code mono" id="skillMeta"></span></div>
+          <div class="panel"><span class="bl"></span><span class="br"></span><div class="skill-groups" id="skillGroups"></div></div>
+        </section>
+
+        <!-- Blog -->
+        <section id="blog">
+          <div class="section-bg"></div>
+          <div class="section-head"><h2>Blog</h2><span class="code mono" id="blogMeta"></span></div>
+          <div class="blog-grid" id="blogGrid"></div>
+          <div class="blog-more"><a id="blogMoreLink" href="#" rel="noopener"></a></div>
+        </section>
+
+        <!-- Contact -->
+        <section id="contact">
+          <div class="section-bg"></div>
+          <div class="section-head"><h2>Contact</h2><span class="code mono" id="contactMeta"></span></div>
+          <div class="panel">
+            <span class="bl"></span><span class="br"></span>
+            <div class="contact-wrap">
+              <div>
+                <div class="status-chip" id="statusChip"><span class="dot"></span><span id="statusText"></span></div>
+                <div class="contact-links" id="contactLinks"></div>
+              </div>
+              <div class="coord mono" id="coordBlock"></div>
+            </div>
+          </div>
+        </section>
+
+        <footer>
+          <span id="footerLeft"></span>
+          <span id="footerRight"></span>
+        </footer>
+      </main>
+    </div>
+
+    <script src="/javascripts.js"></script>
+  </body>
+</html>
